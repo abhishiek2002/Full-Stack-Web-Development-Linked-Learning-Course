@@ -1,0 +1,2 @@
+Next steps
+- Thank you for taking this course. I hope you're feeling confident about using Git and excited about all the possibilities it offers. What we covered here is just the beginning. There's so much more you can do with Git. Once you're comfortable with the basics, I encourage you to dive deeper into more advanced features. If you are ready to keep learning, check out the library for more Git courses, like Git for Teams, or what about Learning GitHub? So go ahead, have fun experimenting with Git and see how it can streamline your workflow. Happy coding!

@@ -1,2 +1,94 @@
-Customizing your text editor
-- We've covered the basics of using a text editor, opening folders and files and making changes to the code. However, the purpose of using an advanced text editor is to access more features and customize the settings to your liking. If you don't know which settings you need, don't worry. I'll go over some of my preferences and some useful features in VS code. You can always change these settings as you develop your own workflow. Let's start with updating the font size settings. A quick way to make this change is to use Command on a Mac or Control on a PC and the plus or minus key. This will make everything bigger or smaller including the UI elements like the icons and texts in the sidebar. To change the font size of just the file display area, click the gear icon on the bottom left and select settings. Then under editor font size, change the text field. I'll change mine to 18. Now we can see the text size in the file has changed but the UI elements remain the same. Another setting I always turn on is word wrap so I don't have to scroll horizontally to see the content that goes beyond the width of the editor. Back in the settings, scroll down to editor word wrap and select an option from the dropdown menu. The on setting will wrap the text to the width of the editor window. WordWrapColumn allows you to set a specific width regardless of the editor window. Bounded will wrap to the width of the editor window or the wordWrapColumn width, whichever is smaller. I'll just keep it basic and choose on. Now the content will wrap automatically to the width of the editor. Speaking of editor width, I prefer to disable this mini map on the right side of the editor. While it can help with navigation on long pages of code, I personally don't find it useful and prefer to have more space in the editor window. Some settings can be changed just by right clicking on it. Uncheck the mini map to remove this feature. It can be added back in from the settings. Just search for mini map. Another useful feature is syntax highlighting which uses different colors to help differentiate between different parts of the code. For example, HTML tags are colored differently from the content and the different parts of the markup like the brackets and attributes are also colored differently. Also by clicking on a tag it will highlight the corresponding opening and closing tag making it easier to see matching pairs. You can change the colored themes in the settings. Click on the gear icon and select themes, color themes. Currently I'm using the Monokal Dimmed theme, to switch to something else, pick an option from the dropdown menu. You can install more themes and add additional features by using extensions. To do this, click on the icon that looks like four blocks in the sidebar and search for themes. Select an option to view it and click install to add your theme options. These are just a few features to get you started. To see what else is available, check out the editor's documentation or take a look through the rest of the preference settings.
+# Customizing Your Text Editor (VS Code)
+
+## Overview
+
+This video teaches how to customize a text editor, specifically VS Code, to improve your coding experience. Customizing settings like font size, word wrap, themes, and extensions helps make coding more comfortable and efficient.
+
+## Main Concepts
+
+### 1. Adjusting Font Size
+
+* **Quick Method:**
+
+  * **Mac:** `Command +` or `Command -`
+  * **PC:** `Control +` or `Control -`
+  * This changes both the code and UI elements.
+* **File Display Only:**
+
+  * Click the **gear icon** > **Settings** > **Editor: Font Size**
+  * Set your preferred size (e.g., 18)
+
+**Example:**
+
+```text
+Before: small text
+After: text size increased to 18
+```
+
+### 2. Enabling Word Wrap
+
+* Prevents horizontal scrolling.
+* Settings:
+
+  * **Editor: Word Wrap** > `on` (wraps text to editor width)
+  * Other options: `wordWrapColumn` (specific width), `bounded` (smaller of window width or column width)
+* Recommended: **on** for basic wrapping.
+
+### 3. Disabling Mini Map
+
+* Mini map shows a small overview of code on the right.
+* Can be distracting or take space.
+* Disable by:
+
+  * Right-click in editor > Uncheck **Mini Map**
+  * Or search **Mini Map** in settings.
+
+### 4. Syntax Highlighting
+
+* Differentiates code elements with colors:
+
+  * HTML tags, attributes, and content have unique colors.
+  * Clicking a tag highlights its matching pair.
+* Change theme:
+
+  * **Gear icon** > **Themes** > **Color Themes**
+  * Example: Monokal Dimmed theme.
+* Install additional themes:
+
+  * Sidebar > Extensions (four blocks icon) > Search & Install
+
+### 5. Exploring Other Features
+
+* VS Code has many customizable features.
+* Check **documentation** or **preference settings** for more options.
+
+---
+
+## 🗝️ Key Points / Notes
+
+* Adjust **font size** for readability.
+* Use **word wrap** to avoid horizontal scrolling.
+* Disable **mini map** if you need more coding space.
+* **Syntax highlighting** helps differentiate code elements.
+* Explore **themes and extensions** to enhance workflow.
+
+---
+
+## 🧩 Visual Summary
+
+```mermaid
+flowchart TD
+A[Open VS Code] --> B[Adjust Font Size]
+B --> C[Enable Word Wrap]
+C --> D[Disable Mini Map]
+D --> E[Choose Syntax Theme]
+E --> F[Install Extensions]
+```
+
+---
+
+## ⚡ Quick Revision
+
+✅ Customize VS Code to fit your workflow
+✅ Font size, word wrap, mini map, syntax highlighting
+✅ Themes and extensions enhance coding experience
